@@ -1,5 +1,5 @@
 module ApplicationHelper
-    def soma
-    1 + 1
-    end
+    def data_br(data_us)
+        data_us.strftime("%d/%m/%y")
+    end   
 end

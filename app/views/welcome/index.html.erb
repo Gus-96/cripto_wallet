@@ -1,5 +1,6 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<h1>Seja Bem-vindo!</h1>
+
+<strong>Data: </strong><%= data_br(Date.today)%> 
 <ul>
     <li>
         <%= link_to "Meodas", coins_path %>
@@ -8,3 +9,4 @@
         <%= link_to "Tipos de Mineração", mining_types_path %>
     </li>
 </ul>
+

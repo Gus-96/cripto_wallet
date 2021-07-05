@@ -64,6 +64,6 @@ class CoinsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def coin_params
-      params.require(:coin).permit(:url_image, :description, :acronym)
+      params.require(:coin).permit(:url_image, :description, :acronym, :mining_type_id)
     end
 end
